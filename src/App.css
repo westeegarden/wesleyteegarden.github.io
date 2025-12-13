@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.site-title {
+  font-family: 'BBH Bartle', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  color: #4766a2;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
