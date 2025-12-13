@@ -1,18 +1,27 @@
-import { useState } from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
-import './App.css';
 
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 export default function App() {
-return (
-  <div className="min-h-screen bg-gray-50 text-gray-900">
-    <Navbar />
-    <Hero />
-    <ProjectsSection />
-    <Footer />
-  </div>
-);
+  return (
+    <HashRouter>
+      <Navbar />
+
+    <main>
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </main>
+
+      <Footer />
+    </HashRouter>
+  );
 }
