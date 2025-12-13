@@ -5,16 +5,40 @@
   text-align: center;
 }
 
+/* Navbar container */
+.navbar {
+  position: relative;
+  padding: 16px;
+}
+
 .site-title {
   font-family: 'BBH Bartle', sans-serif;
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin-top: 50px;
-  color: #4766a2;
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  color: #3d4c6c;
+  
+}
+
+/* Links container */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 16px;
+}
+
+/* Individual link styles */
+.nav-links a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #797979;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ddb986;
 }
 
 .logo {
