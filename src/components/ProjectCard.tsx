@@ -3,6 +3,7 @@ type ProjectCardProps = {
   description: string;
   image: string;
   link: string;
+  imagePosition?: "left" | "right";
 };
 
 export default function ProjectCard({
@@ -10,9 +11,10 @@ export default function ProjectCard({
   description,
   image,
   link,
+  imagePosition = "right",
 }: ProjectCardProps) {
   return (
-    <div className="project-card">
+    <div className={`project-card ${imagePosition}`}>
       <div className="project-content">
         <h3>{title}</h3>
         <p>{description}</p>
