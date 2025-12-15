@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const doppelgangerImages = [
@@ -8,6 +9,10 @@ const doppelgangerImages = [
 ];
 
 export default function Doppelganger() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // scroll to top when component mounts
+  }, []);
+  
   return (
     <div className="project-view-page">
       <div className="project-view-content">

@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Doppelganger from "./pages/Doppelganger";
+import NiteOut from "./pages/NiteOut";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/doppelganger" element={<Doppelganger />} />
+        <Route path="/niteout" element={<NiteOut />} />
       </Routes>
     </main>
 

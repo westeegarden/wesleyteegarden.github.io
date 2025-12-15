@@ -11,7 +11,7 @@ const projects = [
         title: "NiteOut Event Finder App",
         description: "A mobile app that helps users find local events and activities based on their interests and location.",
         image: "/public/NiteOutHome.jpg",
-        link: "/About",
+        link: "/niteout",
     },
     {
         title: "Compatible Chords CLI Tool",
