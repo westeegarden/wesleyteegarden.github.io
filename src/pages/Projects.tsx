@@ -17,7 +17,7 @@ const projects = [
         title: "Compatible Chords CLI Tool",
         description: "A command-line tool that helps users learn about music theory and chord progressions.",
         image: "/public/compChordsLogo.jpg",
-        link: "/About",
+        link: "/compchords",
     },
     {
         title: "Mixing Master AI Agent",
