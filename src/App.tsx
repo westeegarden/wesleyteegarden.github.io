@@ -10,6 +10,7 @@ import Doppelganger from "./pages/Doppelganger";
 import NiteOut from "./pages/NiteOut";
 import CompChords from "./pages/CompChords";
 import MixingMaster from "./pages/MixingMaster";
+import MultiLay from "./pages/MultiLay";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/niteout" element={<NiteOut />} />
         <Route path="/compchords" element={<CompChords />} />
         <Route path="/mixingmaster" element={<MixingMaster />} />
+        <Route path="/multilay" element={<MultiLay />} />
       </Routes>
     </main>
 

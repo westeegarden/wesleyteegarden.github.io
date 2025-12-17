@@ -29,7 +29,7 @@ const projects = [
         title: "Multi-lay VST Plugin",
         description: "A VST plugin that allows users to create complex layered sounds using three variable delay chanels.",
         image: "/public/MultiLayGUI.jpg",
-        link: "/About",
+        link: "/multilay",
     },
     {
         title: "Cold Cuts Score",
