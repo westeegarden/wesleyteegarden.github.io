@@ -4,7 +4,7 @@ const projects = [
     {
         title: "Doppelganger ML Guitar Pedal",
         description: "A machine learning powered guitar pedal that can mimic the sound of any guitar tone it is trained on.",
-        image: "/guiUpdate.jpg",
+        image: `${import.meta.env.BASE_URL}guiUpdate.jpg`,
         link: "/doppelganger",
     },
     {
