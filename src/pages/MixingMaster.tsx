@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const mixingMasterImages = [
-  `${import.meta.env.BASE_URL}agentFLow.jpg`,
+  `${import.meta.env.BASE_URL}agentFlow.jpg`,
   `${import.meta.env.BASE_URL}agentPrompt.jpg`,
   `${import.meta.env.BASE_URL}agentOutput.jpg`,
   `${import.meta.env.BASE_URL}level1cert.jpg`,
