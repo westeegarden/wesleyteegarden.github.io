@@ -23,7 +23,7 @@ const projects = [
         title: "Mixing Master AI Agent",
         description: "An AI agent built on NeuralSeek's mAIstro platform that provides music producers with intelligent mixing and mastering suggestions.",
         image: "/public/NeuralSeekLogo.jpg",
-        link: "/About",
+        link: "/mixingmaster",
     },
     {
         title: "Multi-lay VST Plugin",

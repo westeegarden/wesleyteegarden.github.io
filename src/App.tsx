@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Doppelganger from "./pages/Doppelganger";
 import NiteOut from "./pages/NiteOut";
 import CompChords from "./pages/CompChords";
+import MixingMaster from "./pages/MixingMaster";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/doppelganger" element={<Doppelganger />} />
         <Route path="/niteout" element={<NiteOut />} />
         <Route path="/compchords" element={<CompChords />} />
+        <Route path="/mixingmaster" element={<MixingMaster />} />
       </Routes>
     </main>
 
